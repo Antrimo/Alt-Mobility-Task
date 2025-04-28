@@ -1,16 +1,26 @@
-# alt
+# alt mobiltiy Todo app
 
-A new Flutter project.
+    1. User Authentication
+    2. Todo Management
+    3. User Interface
+    4. State Management
+    5. Error Handling
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Install my-project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/Antrimo/Alt-Mobility-Task
+  
+  cd Alt-Mobility-Task
+```
+    
+## Running Tests
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run tests, run the following command
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  flutter pub get
+  flutter run
+```
