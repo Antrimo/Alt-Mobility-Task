@@ -17,6 +17,8 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AuthProvider()),
+        ChangeNotifierProvider(create: (_) => TodoProvider()),
+
       ],
       child: MaterialApp(
         title: 'Todo App',
