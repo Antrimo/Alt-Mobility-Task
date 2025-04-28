@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Todo App',
         theme: ThemeData(primarySwatch: Colors.teal),
+        debugShowCheckedModeBanner: false,
         home: Consumer<AuthProvider>(
           builder: (context, authProvider, _) =>
               authProvider.isAuthenticated ? const TodoScreen() : const LoginScreen(),
